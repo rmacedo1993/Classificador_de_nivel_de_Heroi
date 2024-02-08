@@ -28,9 +28,9 @@ Ao final deve se exibir uma mensagem:
 
 */
 
-let nome_heroi = 'zé';
+let nome_heroi = prompt("Digite o nome do Herói: ");
 console.log(nome_heroi);
-let xp_heroi = 11000;
+let xp_heroi = prompt("Insira a quantidade de XP do herói: ");
 console.log(xp_heroi);
 
 let classificador_nivel_heroi;
